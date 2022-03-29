@@ -1,0 +1,10 @@
+general:
+  reset: false
+  gameName: Bingo
+  prefix: §8| §bBINGO§8 §8» §7
+  colorcode: §b
+
+lang:
+  commandNotReady: '§cDieser Command ist nur während des Spiels freigeschaltet!'
+  resetKickMessage: '§cDer Server wurde resettet! \n§7Du wurdest deshalb gekickt!'
+  noPermission: '§cDu hast keine Rechte für diesen Befehl!'
