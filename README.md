@@ -1,2 +1,5 @@
 # Bingo
-Minecraft Bingo Plugin for Flowtex Plugin Shop
+[Minecraft]
+
+Bingo Plugin
+mgvpri Style
