@@ -1,0 +1,26 @@
+# Generelle Einstellungen, zu dem Spielprinzip und verschiedenen Features
+general:
+  blockServerReload: true
+  reset: false
+  gameName: Bingo
+  hideAdvancements: false
+  prefix: '&8| %colorcode%BINGO &8» &7'
+  colorcode: '&b'
+
+# Einstellungen, zur Manipulation vom Aussehen des Plugins
+lang:
+  commandNotReady: '&cDieser Command ist nur während des Spiels freigeschaltet!'
+  topNotReady: '&cDer /top Befehl kann im Nether/End nicht angewendet werden!'
+  reloadCommandBlocked: '&cDer /reload Befehl ist auf diesem Server gesperrt, um Bugs zu verhindern.\n&7Du kannst die Sperre in der Config auf eigene Verantwortung rückgängig machen!'
+  resetKickMessage: '&cDer Server wurde resettet! \n&7Du wurdest deshalb gekickt!'
+  noPermission: '&cDu hast keine Rechte für diesen Befehl!'
+  noTeamOnStart: '&cDa du kein Team ausgewählt hast wurdest du leider gekickt!'
+  noMember: '&cDu bist keine Teilnehmer dieses Bingos!'
+  buildModeJoin: '&7Du hast den &bBau-Modus &betreten!'
+  buildModeQuit: '&7Du hast den &bBau-Modus &7verlassen!'
+  gamemodeSelf: '&7Du hast deinen Spielmodus zu %colorcode%%gamemode% &7geändert!'
+  gamemodeOther: '&7Du hast den Spielmodus von %colorcode%%player% &7zu %colorcode%%gamemode% &7geändert!'
+  gamemodeAll: '&7Du hast den Spielmodus von %colorcode%allen Spielern &7zu %colorcode%%gamemode% &7geändert!'
+  gamemodeUnvalidNumber: '&7Bitte gibt einen Validen Spielmodus an!'
+  gamemodeHelp: '%colorcode%Syntax&8: &7/gm &8<%colorcode%Mode&8> [%colorcode%Player&8]'
+  gamemodePlayerNull: '&7Spieler konnte nicht gefunden werden!'
