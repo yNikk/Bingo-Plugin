@@ -1,0 +1,37 @@
+# Generelle Einstellungen, zu dem Spielprinzip und verschiedenen Features
+general:
+  blockServerReload: true
+  reset: false
+  hideAdvancements: false
+  gamename: 'Bingo'
+  prefix: '&8| %colorcode%BINGO &8» &7'
+  colorcode: '&b'
+
+# Einstellungen, zur Manipulation vom Aussehen des Plugins
+lang:
+  commandNotReady: '&cDieser Command ist nur während des Spiels freigeschaltet!'
+  topNotReady: '&cDer /top Befehl kann im Nether/End nicht angewendet werden!'
+  reloadCommandBlocked: '&cDer /reload Befehl ist auf diesem Server gesperrt, um Bugs zu verhindern. Du kannst die Sperre in der Config auf eigene Verantwortung rückgängig machen!'
+  resetKickMessage: '&cDer Server wurde resettet! &7Du wurdest deshalb gekickt!'
+  noPermission: '&cDu hast keine Rechte für diesen Befehl!'
+  noTeamOnStart: '&cDa du kein Team ausgewählt hast wurdest du leider gekickt!'
+  noMember: '&cDu bist keine Teilnehmer dieses Bingos!'
+  buildModeJoin: '&7Du hast den &bBau-Modus &betreten!'
+  buildModeQuit: '&7Du hast den &bBau-Modus &7verlassen!'
+  gamemodeSelf: '&7Du hast deinen Spielmodus zu %colorcode%%gamemode% &7geändert!'
+  gamemodeOther: '&7Du hast den Spielmodus von %colorcode%%player% &7zu %colorcode%%gamemode% &7geändert!'
+  gamemodeAll: '&7Du hast den Spielmodus von %colorcode%allen Spielern &7zu %colorcode%%gamemode% &7geändert!'
+  gamemodeUnvalidNumber: '&7Bitte gibt einen validen Spielmodus an!'
+  gamemodeHelp: '%colorcode%Syntax&8: &7/gm &8<%colorcode%Mode&8> [%colorcode%Player&8]'
+  gamemodePlayerNull: '&7Spieler konnte nicht gefunden werden!'
+  actionbarLobby: '%colorcode%%gamename% &8» &7Lobbyphase'
+  actionbarTeam: '%colorcode%%gamename% &8» &7Teamphase'
+  actionbarEnd: '%colorcode%%gamename% &8» %colorcode%Team %winTeam% &7hat gewonnen!'
+
+# PLACEHOLDER
+
+# %colorcode% - Wird mit dem Main Colorcode (general.colorcode) ersetzt
+# %gamename% - Wird mit dem Projekt Name (general.gamename) ersetzt
+# %gamemode% - Wird mit dem angegebenen Spielmodus bei /gm ersetzt
+# %player% - Wird mit dem Spieler Namen ersetzt, auf den die aktuelle Aktion Einfluss hat
+# %winTeam% - Wird mit der TeamID des Gewinner Teams ersetzt
