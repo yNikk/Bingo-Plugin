@@ -1,0 +1,18 @@
+# Generelle Einstellungen, zu dem Spielprinzip und verschiedenen Features
+general:
+  blockServerReload: true
+  reset: false
+  hideAdvancements: false
+  removeTeamlessPlayersOnStart: true
+  gamename: 'Bingo'
+  prefix: '&8| %colorcode%BINGO &8» &7'
+  colorcode: '&b'
+
+# PLACEHOLDER
+# %colorcode% - Wird mit dem Main Colorcode (general.colorcode) ersetzt
+# %gamename% - Wird mit dem Projekt Name (general.gamename) ersetzt
+# %gamemode% - Wird mit dem angegebenen Spielmodus bei /gm ersetzt
+# %player% - Wird mit dem Spieler Namen ersetzt, auf den die aktuelle Aktion Einfluss hat
+# %winTeam% - Wird mit der TeamID des Gewinner Teams ersetzt
+# %ping% - Wird mit dem Ping des eigenen Spielers ersetzt
+# %targetPing% - Wird mit dem Ping des Spielers ersetzt, auf den die aktuelle Aktion Einfluss hat
