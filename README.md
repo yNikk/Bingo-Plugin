@@ -1,5 +1,6 @@
 # Bingo
-[Minecraft]
+[Minecraft Bingo MiniGame]
 
-Bingo Plugin
-mgvpri Style
+Bingo Plugin, very bad old code, pls dont mind
+mgvpri (BastiGHG) Style
+Used to be part of the flowtex.eu online shop
